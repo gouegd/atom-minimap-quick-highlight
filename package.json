@@ -1,0 +1,26 @@
+{
+  "name": "minimap-quick-highlight",
+  "main": "./lib/minimap-quick-highlight",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "repository": "https://github.com/atom/minimap-quick-highlight",
+  "license": "MIT",
+  "engines": {
+    "atom": ">1.12.0"
+  },
+  "consumedServices": {
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    },
+    "quick-highlight": {
+      "versions": {
+        "1.0.0": "consumeQuickHighlight"
+      }
+    }
+  },
+  "dependencies": {
+    "event-kit": ">= 0.7.2"
+  }
+}
