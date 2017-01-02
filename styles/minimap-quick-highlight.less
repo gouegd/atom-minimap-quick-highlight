@@ -1,9 +1,35 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
-// for a full listing of what's available.
-@import "ui-variables";
+// Functions
+.highlight(@name, @color) {
+  .minimap .mini-quick-hl.@{name} {
+    background-color: @color;
+  }
+}
 
-.minimap .mini-quick-hl {
-  background: red;
+@color-base: hsl(0, 100%, 50%);
+
+@color01: spin(@color-base, 0);
+@color07: spin(@color-base, 45);
+@color04: spin(@color-base, 135);
+@color02: spin(@color-base, 180);
+@color06: spin(@color-base, 225);
+@color05: spin(@color-base, 270);
+@color03: spin(@color-base, 315);
+
+atom-text-editor {
+  .highlight(box-01, @color01);
+  .highlight(box-02, @color02);
+  .highlight(box-03, @color03);
+  .highlight(box-04, @color04);
+  .highlight(box-05, @color05);
+  .highlight(box-06, @color06);
+  .highlight(box-07, @color07);
+  .highlight(box-selection, white);
+
+  .highlight(highlight-01, @color01);
+  .highlight(highlight-02, @color02);
+  .highlight(highlight-03, @color03);
+  .highlight(highlight-04, @color04);
+  .highlight(highlight-05, @color05);
+  .highlight(highlight-06, @color06);
+  .highlight(highlight-07, @color07);
 }
