@@ -1,5 +1,7 @@
 # minimap-quick-highlight package for Atom
 
-An integration between minimap and quick-highlight for the Atom text editor.
+An integration between the `minimap` and `quick-highlight` packages for the Atom text editor.
 
-Early stages - does not handle quick-highlight toggles yet, only the current selection.
+Warning - it's fresh out of the oven.
+* Handles quick-highlight's manual and automatic toggles
+* Uses the same colors than quick-highlight (dumbly copying its less rules)
