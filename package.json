@@ -19,8 +19,5 @@
         "1.0.0": "consumeQuickHighlight"
       }
     }
-  },
-  "dependencies": {
-    "event-kit": ">= 0.7.2"
   }
 }
