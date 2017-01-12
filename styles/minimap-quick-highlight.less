@@ -1,3 +1,5 @@
+@import "syntax-variables";
+
 // Functions
 .highlight(@name, @color) {
   .minimap .mini-quick-hl.@{name} {
@@ -31,7 +33,7 @@ atom-text-editor {
   .highlight(box-05, @color05);
   .highlight(box-06, @color06);
   .highlight(box-07, @color07);
-  .highlight(box-selection, white);
+  .highlight(box-selection, @syntax-result-marker-color);
 
   .highlight(highlight-01, @color01);
   .highlight(highlight-02, @color02);
