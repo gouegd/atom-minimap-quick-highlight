@@ -1,3 +1,5 @@
+[See this package on atom.io](https://atom.io/packages/minimap-quick-highlight)
+
 # minimap-quick-highlight package for Atom
 
 An integration between the [minimap](https://atom.io/packages/minimap) and [quick-highlight](https://atom.io/packages/quick-highlight) packages for the Atom text editor.
