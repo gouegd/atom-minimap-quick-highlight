@@ -1,7 +1,7 @@
 {
   "name": "minimap-quick-highlight",
   "main": "./lib/minimap-quick-highlight",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A short description of your package",
   "repository": "https://github.com/atom/minimap-quick-highlight",
   "license": "MIT",
