@@ -1,9 +1,14 @@
-[See this package on atom.io](https://atom.io/packages/minimap-quick-highlight)
-
 # minimap-quick-highlight package for Atom
+[![APM Version](https://img.shields.io/apm/v/minimap-quick-highlight.svg)](https://atom.io/packages/minimap-quick-highlight)
+[![APM Downloads](https://img.shields.io/apm/dm/minimap-quick-highlight.svg)](https://atom.io/packages/minimap-quick-highlight)
 
 An integration between the [minimap](https://atom.io/packages/minimap) and [quick-highlight](https://atom.io/packages/quick-highlight) packages for the Atom text editor.
 
+## Installation
+
+`apm install minimap-quick-highlight`
+
+## Features
 
 * Handles quick-highlight's manual and automatic (current selection) toggles
 * Uses the same default colors than quick-highlight
