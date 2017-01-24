@@ -1,7 +1,7 @@
 {
   "name": "minimap-quick-highlight",
   "main": "./lib/minimap-quick-highlight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Have multiple selections appear in minimap (integrates quick-highlight and minimap)",
   "repository": "https://github.com/gouegd/atom-minimap-quick-highlight",
   "license": "MIT",
